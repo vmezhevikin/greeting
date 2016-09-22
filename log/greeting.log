@@ -1,0 +1,169 @@
+22-Sep-2016 10:57:03 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - Start testing TimeUtil.getTimeAsString()
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 00:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 01:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 02:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 03:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 04:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 05:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 05:59:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 06:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 06:01:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 07:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 08:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 08:59:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 09:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 09:01:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 10:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 12:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 13:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 14:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 15:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 16:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 17:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 18:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 18:59:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 19:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 19:01:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 20:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 21:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 22:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 22:59:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 23:00:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 23:01:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetTimeAsString - time 23:59:00 matches HH:mm:ss - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - Start testing MessageUtil.getGreetingMessageForTime(time) EN
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 00:00:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 01:00:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 02:00:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 03:00:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 04:00:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 05:00:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 05:59:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 06:00:00 expecting Доброе утро - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 06:01:00 expecting Доброе утро - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 07:00:00 expecting Доброе утро - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 08:00:00 expecting Доброе утро - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 08:59:00 expecting Доброе утро - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 09:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 09:01:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 10:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 12:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 13:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 14:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 15:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 16:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 17:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 18:00:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 18:59:00 expecting Добрый день - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 19:00:00 expecting Добрый вечер - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 19:01:00 expecting Добрый вечер - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 20:00:00 expecting Добрый вечер - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 21:00:00 expecting Добрый вечер - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 22:00:00 expecting Добрый вечер - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 22:59:00 expecting Добрый вечер - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 23:00:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 23:01:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_RU - time: 23:59:00 expecting Доброй ночи - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - Start testing MessageUtil.getGreetingMessageForTime(time) FR
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 00:00:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 01:00:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 02:00:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 03:00:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 04:00:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 05:00:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 05:59:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 06:00:00 expecting Bonjour - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 06:01:00 expecting Bonjour - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 07:00:00 expecting Bonjour - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 08:00:00 expecting Bonjour - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 08:59:00 expecting Bonjour - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 09:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 09:01:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 10:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 12:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 13:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 14:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 15:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 16:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 17:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 18:00:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 18:59:00 expecting Bonne journée - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 19:00:00 expecting Bonsoir - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 19:01:00 expecting Bonsoir - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 20:00:00 expecting Bonsoir - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 21:00:00 expecting Bonsoir - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 22:00:00 expecting Bonsoir - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 22:59:00 expecting Bonsoir - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 23:00:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 23:01:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_FR - time: 23:59:00 expecting Bonne nuit - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_LanguageUtil - Start testing LanguageUtil.getCurrentLanguage()
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_LanguageUtil - Expecting en as default language. Actual en. Result true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_LanguageUtil - Expecting fr as default language. Actual fr. Result true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_LanguageUtil - Expecting ru as default language. Actual ru. Result true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - Start testing TimeUtil.getDayTime(time)
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 00:00:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 01:00:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 02:00:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 03:00:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 04:00:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 05:00:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 05:59:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 06:00:00 expecting day time MORNING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 06:01:00 expecting day time MORNING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 07:00:00 expecting day time MORNING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 08:00:00 expecting day time MORNING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 08:59:00 expecting day time MORNING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 09:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 09:01:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 10:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 12:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 13:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 14:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 15:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 16:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 17:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 18:00:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 18:59:00 expecting day time DAY - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 19:00:00 expecting day time EVENING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 19:01:00 expecting day time EVENING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 20:00:00 expecting day time EVENING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 21:00:00 expecting day time EVENING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 22:00:00 expecting day time EVENING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 22:59:00 expecting day time EVENING - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 23:00:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 23:01:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.g.Test_TimeUtil_GetDayTime - time: 23:59:00 expecting day time NIGHT - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - Start testing MessageUtil.getGreetingMessageForTime(time) EN
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 00:00:00 expecting Good night - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 01:00:00 expecting Good night - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 02:00:00 expecting Good night - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 03:00:00 expecting Good night - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 04:00:00 expecting Good night - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 05:00:00 expecting Good night - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 05:59:00 expecting Good night - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 06:00:00 expecting Good morning - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 06:01:00 expecting Good morning - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 07:00:00 expecting Good morning - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 08:00:00 expecting Good morning - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 08:59:00 expecting Good morning - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 09:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 09:01:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 10:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 12:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 13:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 14:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 15:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 16:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 17:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 18:00:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 18:59:00 expecting Good day - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 19:00:00 expecting Good evening - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 19:01:00 expecting Good evening - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 20:00:00 expecting Good evening - true
+22-Sep-2016 10:57:04 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 21:00:00 expecting Good evening - true
+22-Sep-2016 10:57:05 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 22:00:00 expecting Good evening - true
+22-Sep-2016 10:57:05 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 22:59:00 expecting Good evening - true
+22-Sep-2016 10:57:05 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 23:00:00 expecting Good night - true
+22-Sep-2016 10:57:05 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 23:01:00 expecting Good night - true
+22-Sep-2016 10:57:05 DEBUG [main] c.v.greeting.Test_MessageUtil_EN - time: 23:59:00 expecting Good night - true
