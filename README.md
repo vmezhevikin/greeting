@@ -18,3 +18,9 @@ Good night, World! - 23:00 - 06:00
 
 ## Build status
 [![Build Status](https://travis-ci.org/vmezhevikin/greeting.svg?branch=master)](https://travis-ci.org/vmezhevikin/greeting)
+
+####Fix 1:
+
+MessageUtil: fixed getting messages (ResourceBundle + different messages.properties files for supported languages)
+TimeUtil: fixed logic getDayTime method
+LangaugeUtil: removed

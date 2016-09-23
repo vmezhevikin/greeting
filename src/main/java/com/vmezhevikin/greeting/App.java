@@ -21,11 +21,16 @@ public class App {
 		
 		LocalTime time = TimeUtil.getCurrentTime();
 		
-		MessageUtil.readMessagesForCurrentLanguage();
+		MessageUtil.setCurrentLanguage("en");
 		printGreetingForTime(time);
 		
-		LanguageUtil.setCurrentLanguage("ru");
-		MessageUtil.readMessagesForCurrentLanguage();
+		MessageUtil.setCurrentLanguage("fr");
+		printGreetingForTime(time);
+		
+		MessageUtil.setCurrentLanguage("ru");
+		printGreetingForTime(time);
+		
+		MessageUtil.setDefaultLanguage();
 		printGreetingForTime(time);
 	}
 }

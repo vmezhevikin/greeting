@@ -9,10 +9,10 @@ public class TimeUtil {
 		MORNING, DAY, EVENING, NIGHT 
 	}
 
-	private static final LocalTime MORNING_TIME = LocalTime.of(5, 59, 59);
-	private static final LocalTime DAY_TIME = LocalTime.of(8, 59, 59);
-	private static final LocalTime EVENING_TIME = LocalTime.of(18, 59, 59);
-	private static final LocalTime NIGHT_TIME = LocalTime.of(22, 59, 59);
+	private static final LocalTime MORNING_TIME = LocalTime.of(6, 0, 0);
+	private static final LocalTime DAY_TIME = LocalTime.of(9, 0, 0);
+	private static final LocalTime EVENING_TIME = LocalTime.of(19, 0, 0);
+	private static final LocalTime NIGHT_TIME = LocalTime.of(23, 0, 0);
 	
 	private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("HH:mm:ss");
 
@@ -25,7 +25,7 @@ public class TimeUtil {
 
 	/**
 	 * @param time
-	 * @return input time as String HH:mm:ss
+	 * @return input time as String (HH:mm:ss)
 	 */
 	public static String getTimeAsString(LocalTime time) {
 		return time.format(FORMATTER);
@@ -37,13 +37,13 @@ public class TimeUtil {
 	 * DayTime.EVENING - 19:00-23:00; DayTime.NIGHT - 23:00-6:00
 	 */
 	public static DayTime getDayTime(LocalTime time) {
-		if (time.isAfter(MORNING_TIME) && time.isBefore(DAY_TIME)) {
+		if (time.isBefore(MORNING_TIME)) {
+			return DayTime.NIGHT;
+		} else if (time.isBefore(DAY_TIME)) {
 			return DayTime.MORNING;
-		}
-		if (time.isAfter(DAY_TIME) && time.isBefore(EVENING_TIME)) {
+		} else if (time.isBefore(EVENING_TIME)) {
 			return DayTime.DAY;
-		}
-		if (time.isAfter(EVENING_TIME) && time.isBefore(NIGHT_TIME)) {
+		} else if (time.isBefore(NIGHT_TIME)) {
 			return DayTime.EVENING;
 		}
 		return DayTime.NIGHT;
